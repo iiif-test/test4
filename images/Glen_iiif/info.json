@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 36,
+    "height" : 36
+  }, {
+    "width" : 71,
+    "height" : 72
+  }, {
+    "width" : 141,
+    "height" : 144
+  }, {
+    "width" : 281,
+    "height" : 287
+  }, {
+    "width" : 562,
+    "height" : 574
+  }, {
+    "width" : 1123,
+    "height" : 1147
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 1123,
+  "@id" : "https://iiif-test.github.io/test4/images/Glen_iiif",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 1147
+}
