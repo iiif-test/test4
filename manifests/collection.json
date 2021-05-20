@@ -1,0 +1,13 @@
+{
+  "id" : "https://iiif-test.github.io/test4/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in iiif-test/test4 project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://iiif-test.github.io/test4/manifests/manifestChinesedrawings.json",
+    "label" : "British Library Add MS 5292 'Drawings of Chinese Flowers, Plants, and Fruits, in colours, by a native artist, at Emuy"
+  } ]
+}
