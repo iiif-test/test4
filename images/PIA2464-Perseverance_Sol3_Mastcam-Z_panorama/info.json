@@ -1,0 +1,33 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 1155,
+    "height" : 362
+  }, {
+    "width" : 2310,
+    "height" : 724
+  }, {
+    "width" : 4619,
+    "height" : 1447
+  }, {
+    "width" : 9238,
+    "height" : 2893
+  }, {
+    "width" : 18476,
+    "height" : 5785
+  }, {
+    "width" : 36952,
+    "height" : 11570
+  } ],
+  "profile" : "level0",
+  "width" : 36952,
+  "id" : "https://iiif-test.github.io/test4/images/PIA2464-Perseverance_Sol3_Mastcam-Z_panorama",
+  "type" : "ImageService3",
+  "@context" : "http://iiif.io/api/image/3/context.json",
+  "height" : 11570
+}
