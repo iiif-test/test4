@@ -6,6 +6,64 @@
   "type" : "Manifest",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
+    "width" : 36952,
+    "id" : "https://iiif-test.github.io/test4/images/PIA2464-Perseverance_Sol3_Mastcam-Z_panorama/canvas/",
+    "label" : {
+      "none" : [ "PIA2464-Perseverance_Sol3_Mastcam-Z_panorama" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://iiif-test.github.io/test4/images/PIA2464-Perseverance_Sol3_Mastcam-Z_panorama/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://iiif-test.github.io/test4/images/PIA2464-Perseverance_Sol3_Mastcam-Z_panorama/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 1155,
+              "height" : 362
+            }, {
+              "width" : 2310,
+              "height" : 724
+            }, {
+              "width" : 4619,
+              "height" : 1447
+            }, {
+              "width" : 9238,
+              "height" : 2893
+            }, {
+              "width" : 18476,
+              "height" : 5785
+            }, {
+              "width" : 36952,
+              "height" : 11570
+            } ],
+            "profile" : "level0",
+            "width" : 36952,
+            "id" : "https://iiif-test.github.io/test4/images/PIA2464-Perseverance_Sol3_Mastcam-Z_panorama",
+            "type" : "ImageService3",
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "height" : 11570
+          } ],
+          "format" : "image/jpeg",
+          "width" : 36952,
+          "id" : "https://iiif-test.github.io/test4/images/PIA2464-Perseverance_Sol3_Mastcam-Z_panorama/full/max/0/default.jpg",
+          "type" : "Image",
+          "height" : 11570
+        },
+        "target" : "https://iiif-test.github.io/test4/images/PIA2464-Perseverance_Sol3_Mastcam-Z_panorama/canvas/"
+      } ]
+    } ],
+    "height" : 11570
+  }, {
     "width" : 29157,
     "id" : "https://iiif-test.github.io/test4/images/joe/canvas/",
     "label" : {
