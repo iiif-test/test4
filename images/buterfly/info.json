@@ -1,0 +1,33 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 5,
+    "height" : 5
+  }, {
+    "width" : 9,
+    "height" : 10
+  }, {
+    "width" : 17,
+    "height" : 19
+  }, {
+    "width" : 33,
+    "height" : 37
+  }, {
+    "width" : 66,
+    "height" : 73
+  }, {
+    "width" : 132,
+    "height" : 146
+  } ],
+  "profile" : "level0",
+  "width" : 132,
+  "id" : "https://iiif-test.github.io/test4/images/buterfly",
+  "type" : "ImageService3",
+  "@context" : "http://iiif.io/api/image/3/context.json",
+  "height" : 146
+}
