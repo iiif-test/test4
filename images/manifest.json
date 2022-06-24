@@ -6,6 +6,64 @@
   "type" : "Manifest",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
+    "width" : 132,
+    "id" : "https://iiif-test.github.io/test4/images/buterfly/canvas/",
+    "label" : {
+      "none" : [ "buterfly" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://iiif-test.github.io/test4/images/buterfly/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://iiif-test.github.io/test4/images/buterfly/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 5,
+              "height" : 5
+            }, {
+              "width" : 9,
+              "height" : 10
+            }, {
+              "width" : 17,
+              "height" : 19
+            }, {
+              "width" : 33,
+              "height" : 37
+            }, {
+              "width" : 66,
+              "height" : 73
+            }, {
+              "width" : 132,
+              "height" : 146
+            } ],
+            "profile" : "level0",
+            "width" : 132,
+            "id" : "https://iiif-test.github.io/test4/images/buterfly",
+            "type" : "ImageService3",
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "height" : 146
+          } ],
+          "format" : "image/jpeg",
+          "width" : 132,
+          "id" : "https://iiif-test.github.io/test4/images/buterfly/full/max/0/default.jpg",
+          "type" : "Image",
+          "height" : 146
+        },
+        "target" : "https://iiif-test.github.io/test4/images/buterfly/canvas/"
+      } ]
+    } ],
+    "height" : 146
+  }, {
     "width" : 4032,
     "id" : "https://iiif-test.github.io/test4/images/IMG_0353/canvas/",
     "label" : {
