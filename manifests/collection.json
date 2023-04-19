@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://iiif-test.github.io/test4/manifests/manifestChinesedrawings.json",
     "label" : "British Library Add MS 5292 'Drawings of Chinese Flowers, Plants, and Fruits, in colours, by a native artist, at Emuy"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://iiif-test.github.io/test4/manifests/manifest2.json",
+    "label" : "This is Miguel's manifest"
   } ]
 }
