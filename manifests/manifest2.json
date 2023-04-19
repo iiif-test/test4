@@ -1,0 +1,126 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://iiif-test.github.io/test4/manifests/manifest2.json",
+  "@type" : "sc:Manifest",
+  "label" : "This is Miguel's manifest",
+  "metadata" : [ {
+    "label" : "Author",
+    "value" : "Sales Baptista, Miguel"
+  }, {
+    "label" : "Source",
+    "value" : "<span>From: <a href=\"https://purl.pt/\">National Digital Library of Portugal</a></span>"
+  } ],
+  "description" : [ {
+    "@value" : "This is a collection of paintings of Lisbon, Oporto and Coimbra",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/share-your-work/public-domain/cc0/",
+  "attribution" : "Published by Biblioteca Nacional de Portugal and released as Public Domain",
+  "logo" : {
+    "@id" : "http://127.0.0.1:5500/bnp.jpg",
+    "service" : {
+      "@context" : "http://iiif.io/api/image/2/context.json",
+      "@id" : "http://www.bnportugal.gov.pt/",
+      "profile" : "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences" : [ {
+    "@id" : "http://a4e56eda-00c1-42af-9952-a6d32ac80b45",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "viewingDirection" : "left-to-right",
+    "viewingHint" : "paged",
+    "canvases" : [ {
+      "@id" : "http://57b44a04-bf49-47b9-ab5c-436fe388ed40",
+      "@type" : "sc:Canvas",
+      "label" : [ {
+        "@value" : "Oporto",
+        "@language" : "en"
+      } ],
+      "height" : 2147,
+      "width" : 3915,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://15e69668-8bcf-4464-bdb1-ac484b0d5096",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://miguelsalesb.github.io/IIIF/images/porto/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://miguelsalesb.github.io/IIIF/images/porto",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 2147,
+          "width" : 3915
+        },
+        "on" : "http://57b44a04-bf49-47b9-ab5c-436fe388ed40"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://436d4407-e181-4d1d-ae0f-5df8719d15fc",
+      "@type" : "sc:Canvas",
+      "label" : [ {
+        "@value" : "Lisbon",
+        "@language" : "en"
+      } ],
+      "height" : 2500,
+      "width" : 3257,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://68be0e8d-dc1e-4a27-a766-724623e01735",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://miguelsalesb.github.io/IIIF/images/lisboa/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://miguelsalesb.github.io/IIIF/images/lisboa",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 2500,
+          "width" : 3257
+        },
+        "on" : "http://436d4407-e181-4d1d-ae0f-5df8719d15fc"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://dab04605-73bc-48ec-9c88-5820f2369c06",
+      "@type" : "sc:Canvas",
+      "label" : [ {
+        "@value" : "Coimbra",
+        "@language" : "en"
+      } ],
+      "height" : 1508,
+      "width" : 2005,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://c9be2982-0e4a-44ed-9e1a-47886cfc4f56",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://miguelsalesb.github.io/IIIF/images/coimbra/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://miguelsalesb.github.io/IIIF/images/coimbra",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 1508,
+          "width" : 2005
+        },
+        "on" : "http://dab04605-73bc-48ec-9c88-5820f2369c06"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
