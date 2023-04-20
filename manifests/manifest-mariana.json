@@ -12,10 +12,7 @@
     "Author" : "Mariana Westphalen",
     "Library" : "NYPL"
   } ],
-  "description" : [ {
-    "@value" : "This is a collection of woodcuts by Franz Keller",
-    "@language" : "en"
-  } ],
+  "description" : "This is a collection of woodcuts by Franz Keller",
   "license" : "https://creativecommons.org/licenses/by-nc-sa/4.0/",
   "attribution" : "Copyright by Franz Keller",
   "viewingHint" : "paged",
