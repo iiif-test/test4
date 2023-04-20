@@ -19,10 +19,7 @@
   "sequences" : [ {
     "@id" : "http://fa02061a-1fa6-432d-aae0-2bcf95888e17",
     "@type" : "sc:Sequence",
-    "label" : [ {
-      "@value" : "Normal Sequence",
-      "@language" : "en"
-    } ],
+    "label" : "Normal Sequence",
     "canvases" : [ {
       "@id" : "http://bb92a4e4-263d-4dad-bff1-6466671a2cc0",
       "@type" : "sc:Canvas",
