@@ -9,17 +9,26 @@
     "@context" : "http://iiif.io/api/search/0/context.json"
   },
   "metadata" : [ {
-    "Author" : "Mariana Westphalen",
-    "Library" : "NYPL"
+    "label" : "Author",
+    "value" : "Mariana Westphalen"
+  }, {
+    "label" : "Library",
+    "value" : "NYPL"
   } ],
-  "description" : "This is a collection of woodcuts by Franz Keller",
+  "description" : [ {
+    "@value" : "This is a collection of woodcuts by Franz Keller",
+    "@language" : "en"
+  } ],
   "license" : "https://creativecommons.org/licenses/by-nc-sa/4.0/",
   "attribution" : "Copyright by Franz Keller",
   "viewingHint" : "paged",
   "sequences" : [ {
     "@id" : "http://fa02061a-1fa6-432d-aae0-2bcf95888e17",
     "@type" : "sc:Sequence",
-    "label" : "Normal Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
     "canvases" : [ {
       "@id" : "http://bb92a4e4-263d-4dad-bff1-6466671a2cc0",
       "@type" : "sc:Canvas",
